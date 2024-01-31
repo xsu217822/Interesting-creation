@@ -30,34 +30,47 @@
         {
             progressBar1 = new ProgressBar();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(130, 406);
+            progressBar1.Location = new Point(83, 254);
+            progressBar1.Margin = new Padding(2);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(658, 26);
+            progressBar1.Size = new Size(419, 16);
             progressBar1.TabIndex = 0;
-            progressBar1.Click += progressBar1_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft YaHei UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(12, 389);
+            label1.Location = new Point(3, 241);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(112, 52);
+            label1.Size = new Size(76, 35);
             label1.TabIndex = 1;
             label1.Text = "功德:";
             label1.Click += label1_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(190, 190);
+            button1.Name = "button1";
+            button1.Size = new Size(114, 42);
+            button1.TabIndex = 2;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(11F, 24F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(812, 450);
+            ClientSize = new Size(517, 281);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(progressBar1);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -68,5 +81,6 @@
 
         private ProgressBar progressBar1;
         private Label label1;
+        private Button button1;
     }
 }
