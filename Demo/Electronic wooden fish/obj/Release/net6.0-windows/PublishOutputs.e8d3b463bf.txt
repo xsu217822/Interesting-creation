@@ -1,0 +1,5 @@
+C:\Users\suxin\Desktop\新建文件夹\Electronic wooden fish.exe
+C:\Users\suxin\Desktop\新建文件夹\Electronic wooden fish.dll
+C:\Users\suxin\Desktop\新建文件夹\Electronic wooden fish.deps.json
+C:\Users\suxin\Desktop\新建文件夹\Electronic wooden fish.runtimeconfig.json
+C:\Users\suxin\Desktop\新建文件夹\Electronic wooden fish.pdb

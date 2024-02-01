@@ -1,0 +1,18 @@
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\bin\Release\net6.0-windows\Electronic wooden fish.exe
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\bin\Release\net6.0-windows\Electronic wooden fish.deps.json
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\bin\Release\net6.0-windows\Electronic wooden fish.runtimeconfig.json
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\bin\Release\net6.0-windows\Electronic wooden fish.dll
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\bin\Release\net6.0-windows\Electronic wooden fish.pdb
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic_wooden_fish.Form1.resources
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic_wooden_fish.Properties.Resources.resources
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.csproj.GenerateResource.cache
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.AssemblyInfoInputs.cache
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.AssemblyInfo.cs
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.csproj.CoreCompileInputs.cache
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.sourcelink.json
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.dll
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\refint\Electronic wooden fish.dll
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.pdb
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\Electronic wooden fish.genruntimeconfig.cache
+C:\Users\suxin\Documents\GitHub\Interesting-creation\Demo\Electronic wooden fish\obj\Release\net6.0-windows\ref\Electronic wooden fish.dll

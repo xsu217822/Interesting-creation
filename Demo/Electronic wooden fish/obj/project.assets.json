@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "D:\\Profiles\\xs2394\\.nuget\\packages\\": {}
+    "C:\\Users\\suxin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\IGMProfile\\Documents\\GitHub\\Interesting-creation\\Demo\\Electronic wooden fish\\Electronic wooden fish.csproj",
+      "projectUniqueName": "C:\\Users\\suxin\\Documents\\GitHub\\Interesting-creation\\Demo\\Electronic wooden fish\\Electronic wooden fish.csproj",
       "projectName": "Electronic wooden fish",
-      "projectPath": "Z:\\IGMProfile\\Documents\\GitHub\\Interesting-creation\\Demo\\Electronic wooden fish\\Electronic wooden fish.csproj",
-      "packagesPath": "D:\\Profiles\\xs2394\\.nuget\\packages\\",
-      "outputPath": "Z:\\IGMProfile\\Documents\\GitHub\\Interesting-creation\\Demo\\Electronic wooden fish\\obj\\",
+      "projectPath": "C:\\Users\\suxin\\Documents\\GitHub\\Interesting-creation\\Demo\\Electronic wooden fish\\Electronic wooden fish.csproj",
+      "packagesPath": "C:\\Users\\suxin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\suxin\\Documents\\GitHub\\Interesting-creation\\Demo\\Electronic wooden fish\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "Z:\\IGMProfile\\AppData\\NuGet\\NuGet.Config",
+        "C:\\Users\\suxin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
