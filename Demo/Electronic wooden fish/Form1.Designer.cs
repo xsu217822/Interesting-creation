@@ -97,7 +97,7 @@
             button2.Name = "button2";
             button2.Size = new Size(230, 67);
             button2.TabIndex = 4;
-            button2.Text = "赛博纯阳功";
+            button2.Text = "赛博无极功";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -160,12 +160,12 @@
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(230, 164);
             textBox5.TabIndex = 11;
-            textBox5.Text = "程序磕头码撞钟\r\n像素香火欲念空\r\n须弥电子转经筒\r\n掂手修成赛博功";
+            textBox5.Text = "程序打坐码撞钟\r\n像素香火欲念空\r\n须弥电子转经筒\r\n修成赛博无极功";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(308, 220);
+            pictureBox1.Location = new Point(309, 205);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(200, 200);
             pictureBox1.TabIndex = 12;
@@ -178,7 +178,7 @@
             button3.Name = "button3";
             button3.Size = new Size(232, 67);
             button3.TabIndex = 13;
-            button3.Text = "button3";
+            button3.Text = "唵嘛呢叭咪吽";
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
@@ -189,7 +189,7 @@
             button4.Name = "button4";
             button4.Size = new Size(232, 67);
             button4.TabIndex = 14;
-            button4.Text = "button4";
+            button4.Text = "抱元守一";
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 

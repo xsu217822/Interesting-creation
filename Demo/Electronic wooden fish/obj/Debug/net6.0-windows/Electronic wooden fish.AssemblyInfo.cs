@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Electronic wooden fish")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+489fef95b8abbe11979331af776e73c24b84514f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Electronic wooden fish")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Electronic wooden fish")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

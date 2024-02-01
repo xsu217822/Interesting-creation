@@ -31,7 +31,7 @@ namespace Electronic_wooden_fish
             button1.Enabled = false;
             button2.Enabled = true;
             progressBar1.Value = fo;
-            progressBar1.Maximum = (int)Math.Pow(100, levelFo);
+            progressBar1.Maximum = 10 * (int)Math.Pow(10, levelFo);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -43,7 +43,7 @@ namespace Electronic_wooden_fish
             button1.Enabled = true;
             button2.Enabled = false;
             progressBar1.Value = dao;
-            progressBar1.Maximum = (int)Math.Pow(100, levelDao);
+            progressBar1.Maximum = 10 * (int)Math.Pow(10, levelDao);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace Electronic_wooden_fish
                 {
                     progressBar1.Value = 0;
                     levelFo++;
-                    progressBar1.Maximum = (int)Math.Pow(100, levelFo);
+                    progressBar1.Maximum = 10 * (int)Math.Pow(10, levelFo);
                     textBox3.Text = level.LevelFo[levelFo];
                 }
             }
@@ -72,7 +72,7 @@ namespace Electronic_wooden_fish
                 {
                     progressBar1.Value = 0;
                     levelDao++;
-                    progressBar1.Maximum = (int)Math.Pow(100, levelDao);
+                    progressBar1.Maximum = 10 * (int)Math.Pow(10, levelDao);
                     textBox4.Text = level.LevelDao[levelDao];
                 }
             }
@@ -81,15 +81,21 @@ namespace Electronic_wooden_fish
 
         private void button3_Click(object sender, EventArgs e)
         {
-            countFo += 1 * levelFo;
-            progressBar1.Value += 1 * levelFo;
+            if (progressBar1.Value < progressBar1.Maximum - 5 * levelFo)
+            {
+                countFo += 5 * levelFo;
+                progressBar1.Value += 5 * levelFo;
+            }
             button3.Text = level.stringsFo[random.Next(level.stringsFo.Count)];
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            countDao += 1 * levelDao;
-            progressBar1.Value += 1 * levelDao;
+            if (progressBar1.Value < progressBar1.Maximum - 5 * levelDao)
+            {
+                countDao += 5 * levelDao;
+                progressBar1.Value += 5 * levelDao;
+            }
             button4.Text = level.stringsDao[random.Next(level.stringsDao.Count)];
         }
     }
