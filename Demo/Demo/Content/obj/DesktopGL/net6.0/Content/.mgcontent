@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/GitHub/Interesting-creation/Demo/Demo/Content/DALL·E 2024-02-26 17.02.44 - A glossy, golden coin designed as a game asset, prominently featuring a generic, intricate emblem that symbolizes wealth and adventure. The coin shoul.png</File>
+    <File>E:/GitHub/Interesting-creation/Demo/Demo/Content/File.spritefont</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>coin.png</File>
+    <File>Font.spritefont</File>
+  </DestFiles>
+</SourceFileCollection>
