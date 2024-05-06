@@ -9,6 +9,9 @@ namespace Project1
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        // The maze itself
+        Maze maze;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -18,8 +21,6 @@ namespace Project1
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
-
             base.Initialize();
         }
 
@@ -27,30 +28,30 @@ namespace Project1
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            // Create and initialize the maze
+            maze = new Maze(
+                GraphicsDevice,
+                Content.Load<Texture2D>("maze"),
+                GraphicsDevice.Viewport.Width,
+                GraphicsDevice.Viewport.Height);
         }
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-
-            // TODO: Add your update logic here
-            _spriteBatch.Begin();
-
-
-
-
-            _spriteBatch.End();
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.LightBlue);
 
-            // TODO: Add your drawing code here
+            // Draw the maze
+            _spriteBatch.Begin();
+            maze.Draw(_spriteBatch);
+            _spriteBatch.End();
 
             base.Draw(gameTime);
         }

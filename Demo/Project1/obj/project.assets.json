@@ -103,19 +103,19 @@
   },
   "packageFolders": {
     "C:\\Users\\suxin\\.nuget\\packages\\": {},
-    "E:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Interesting-creation\\Demo\\Project1\\Project1.csproj",
+      "projectUniqueName": "C:\\GitHub\\Interesting-creation\\Demo\\Project1\\Project1.csproj",
       "projectName": "Project1",
-      "projectPath": "E:\\GitHub\\Interesting-creation\\Demo\\Project1\\Project1.csproj",
+      "projectPath": "C:\\GitHub\\Interesting-creation\\Demo\\Project1\\Project1.csproj",
       "packagesPath": "C:\\Users\\suxin\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Interesting-creation\\Demo\\Project1\\obj\\",
+      "outputPath": "C:\\GitHub\\Interesting-creation\\Demo\\Project1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\suxin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,6 +140,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -171,7 +176,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
