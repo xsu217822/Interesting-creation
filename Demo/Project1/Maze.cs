@@ -255,13 +255,11 @@ namespace Project1
             // -------------------------------------------------------------------------
             // Determine if a Tile is a valid tile to visit!
             // -------------------------------------------------------------------------
-            if (x > 0 && x < mazeSizeX && y > 0 && y < mazeSizeY)
+
+            if (x >= 0 && x < mazeSizeX && y >= 0 && y < mazeSizeY && vertices[x, y].Data != MazeTile.Wall && vertices[x, y].Visited == false)
             {
-                if (vertices[x, y].Data != MazeTile.Wall)
-                {
-                    return true;
-                }
-            }        
+                return true;
+            }
             return false;
         }
 
@@ -305,44 +303,39 @@ namespace Project1
             //    - Which one are you using?  
             //    - Which data structure is needed for that type of search?
             // -------------------------------------------------------------------------
+            
             // YOUR ANSWER:
-            //BFS
+            // Breadth-First Search
+
             // -------------------------------------------------------------------------
             // 2. UNCOMMENT & use the SINGLE MOST APPROPRIATE structure below for the search.
             // DELETE the remaining two unused ones.
             // -------------------------------------------------------------------------
-             Queue<Vertex> queue = new Queue<Vertex>();
+            
+            Queue<Vertex> queue = new Queue<Vertex>();
+
             // -------------------------------------------------------------------------
             // 3. COMPLETE THE ITERATIVE GRAPH SEARCH HERE.
             // -------------------------------------------------------------------------
 
-            Reset();
             SetAdjcent();
             queue.Enqueue(startVertex);
             startVertex.Visited = true;
-            Vertex currentVertex = null;
-
-            while (currentVertex != endVertex )
+            while (queue.Count > 0)
             {
-                currentVertex = queue.Peek();
-                currentVertex.Visited = true;
-                Debug.WriteLine(currentVertex.X + currentVertex.Y);
-
-                Vertex adjVertex = GetUnvisitedAdj(currentVertex);
-
-                if(adjVertex != null)
+                Vertex current = queue.Dequeue();
+                if (current == endVertex)
                 {
-                    adjVertex.Visited = true;
-                    adjVertex.previous = currentVertex;
-                    queue.Enqueue(adjVertex);
+                    break;
                 }
-
-                else
+                Vertex next = GetUnvisitedAdj(current);
+                while (next != null)
                 {
-                    queue.Dequeue();
+                    next.Visited = true;
+                    next.previous = current;
+                    queue.Enqueue(next);
+                    next = GetUnvisitedAdj(current);
                 }
-
-              
             }
 
             // -------------------------------------------------------------------------
@@ -350,86 +343,74 @@ namespace Project1
             //    - Add vertices found during the search to the "path" List below
             //    - You can use the path list's AddRange() method as necessary
             // -------------------------------------------------------------------------
+            
             List<Vertex> path = new List<Vertex>();
-
-            Vertex vertex = endVertex.previous;
-            while (vertex != startVertex)
+            Vertex temp = endVertex;
+            while (temp != startVertex)
             {
-                path.Add(vertex);
-                vertex = vertex.previous;
-
+                path.Add(temp);
+                temp = temp.previous;
             }
+            path.Add(startVertex);
+            path.Reverse();
 
             // -------------------------------------------------------------------------
             // 5. You are all done!
             // This method now returns the full "path" to solve the maze
             // DO NOT change this return statement.
+            
             return path;
+
             // -------------------------------------------------------------------------
         }
 
+        // You may write additional helper methods, too.
 
         /// <summary>
-        /// set all the vaild adjcent tiles to the current tile
+        /// method to set adjcent tiles for each tile
         /// </summary>
         public void SetAdjcent()
         {
-            foreach (Vertex current in vertices)
+            for (int x = 0; x < mazeSizeX; x++)
             {
-                if (IsTileValid(current.X, current.Y))
-                  {
-                    if (IsTileValid(current.X - 1, current.Y))
+                for (int y = 0; y < mazeSizeY; y++)
+                {
+                    if (IsTileValid(x + 1, y))
                     {
-                        current.Adjcent.Add(vertices[current.X - 1, current.Y]);
+                        vertices[x, y].Adjcent.Add(vertices[x + 1, y]);
                     }
-
-                    if (IsTileValid(current.X + 1, current.Y))
+                    if (IsTileValid(x - 1, y))
                     {
-                        current.Adjcent.Add(vertices[current.X + 1, current.Y]);
+                        vertices[x, y].Adjcent.Add(vertices[x - 1, y]);
                     }
-
-                    if (IsTileValid(current.X, current.Y - 1))
+                    if (IsTileValid(x, y + 1))
                     {
-                        current.Adjcent.Add(vertices[current.X, current.Y - 1]);
+                        vertices[x, y].Adjcent.Add(vertices[x, y + 1]);
                     }
-
-                    if (IsTileValid(current.X, current.Y + 1))
+                    if (IsTileValid(x, y - 1))
                     {
-                        current.Adjcent.Add(vertices[current.X, current.Y + 1]);
+                        vertices[x, y].Adjcent.Add(vertices[x, y - 1]);
                     }
                 }
-            }
-         }
-
-        /// <summary>
-        /// reset verteice visited and adjcent values
-        /// </summary>
-        public void Reset()
-        {
-            foreach (Vertex vertex in vertices)
-            {
-                vertex.Visited = false;
-                vertex.Adjcent.Clear();
             }
         }
 
         /// <summary>
-        /// check and return if there is unvisited adjcent tiles  
+        /// method to get unvisited adjcent tile
         /// </summary>
         /// <param name="current"></param>
         /// <returns></returns>
         public Vertex GetUnvisitedAdj(Vertex current)
         {
-            foreach (Vertex vertex in current.Adjcent)
+            foreach (Vertex adj in current.Adjcent)
             {
-                if (vertex.Visited == false)
-               
-                return vertex;
+                if (adj.Visited == false)
+                {
+                    return adj;
+                }
             }
             return null;
         }
-
-        // You may write additional helper methods, too.
     }
 
 }
