@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\\",
+  "WorkspaceRootPath": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|e:\\github\\interesting-creation\\\u529F\u540D\u5F55\\assets\\scripts\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\assets\\scripts\\graphicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\graphicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|e:\\github\\interesting-creation\\\u529F\u540D\u5F55\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|e:\\github\\interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\assets\\scripts\\canvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\canvasmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|e:\\github\\interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E7C42A-FF04-F8E6-C172-9B1BCDC8B664}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\optionsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StartButton.cs",
-              "DocumentMoniker": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\\Assets\\Scripts\\StartButton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StartButton.cs",
-              "ToolTip": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\\Assets\\Scripts\\StartButton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StartButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "DocumentIndex": 2,
+              "Title": "CanvasManager.cs",
+              "DocumentMoniker": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\CanvasManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CanvasManager.cs",
+              "ToolTip": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\CanvasManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CanvasManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T21:56:18.425Z",
+              "WhenOpened": "2024-11-06T19:56:44.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OptionsMenu.cs",
+              "DocumentMoniker": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\OptionsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OptionsMenu.cs",
+              "ToolTip": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\OptionsMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OptionsMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T19:51:22.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T05:58:18.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GraphicManager.cs",
+              "DocumentMoniker": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\GraphicManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GraphicManager.cs",
+              "ToolTip": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\GraphicManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GraphicManager.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAGgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:30:47.129Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAwAAAA",
+              "Title": "ButtonManager.cs",
+              "DocumentMoniker": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\ButtonManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonManager.cs",
+              "ToolTip": "E:\\GitHub\\Interesting-creation\\\u529F\u540D\u5F55\u603B\u9879\u76EE\\\u529F\u540D\u5F55\\Assets\\Scripts\\ButtonManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonManager.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T05:58:18.133Z",
+              "WhenOpened": "2024-11-06T19:33:04.79Z",
               "EditorCaption": ""
             }
           ]

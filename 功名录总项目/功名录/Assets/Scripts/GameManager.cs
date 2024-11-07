@@ -27,36 +27,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // 用于加载新的场景
-    public void LoadScene(string sceneName)
+    // 用于更改游戏状态
+    public void ChangeGameState(string newStateName)
     {
-        SceneManager.LoadScene(sceneName);
-    }
-
-    // 加载主菜单场景
-    public void LoadMainMenu()
-    {
-        LoadScene("MainMenuScene");
-    }
-
-    // 加载游戏场景
-    public void LoadGame()
-    {
-        LoadScene("GameScene");
-    }
-
-    // 退出游戏
-    public void QuitGame()
-    {
-        Debug.Log("Quitting Game...");
-        Application.Quit();
+        GameState newState = (GameState)System.Enum.Parse(typeof(GameState), newStateName);
+        gameState = newState;
+        Debug.Log("Game State Changed to: " + newState);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        Screen.SetResolution(1920, 1080, false);
+        
     }
+
 
     // Update is called once per frame
     void Update()
@@ -67,35 +51,35 @@ public class GameManager : MonoBehaviour
                 // 如果当前场景不是主菜单场景
                 if (SceneManager.GetActiveScene().name != "MainMenuScene")
                 {
-                    LoadMainMenu();
+                    SceneManager.LoadScene("MainMenuScene");
                 }
                 break;
             case GameState.GameEditor:
                 // 如果当前场景不是游戏编辑器场景
-                if (SceneManager.GetActiveScene().name != "GameEditorScene")
+                if (SceneManager.GetActiveScene().name != "MainMenuScene")
                 {
-                    LoadScene("GameEditorScene");
+                    SceneManager.LoadScene("MainMenuScene");
                 }
                 break;
             case GameState.Options:
                 // 如果当前场景不是选项场景
-                if (SceneManager.GetActiveScene().name != "OptionsScene")
+                if (SceneManager.GetActiveScene().name != "MainMenuScene")
                 {
-                    LoadScene("OptionsScene");
+                    SceneManager.LoadScene("MainMenuScene");
                 }
                 break;
             case GameState.Game:
                 // 如果当前场景不是游戏场景
                 if (SceneManager.GetActiveScene().name != "GameScene")
                 {
-                    LoadGame();
+                    SceneManager.LoadScene("GameScene");
                 }
                 break;
             case GameState.InGameOptions:
                 // 如果当前场景不是游戏场景
-                if (SceneManager.GetActiveScene().name != "InGameOptionsScene")
+                if (SceneManager.GetActiveScene().name != "GameScene")
                 {
-                    LoadScene("InGameOptionsScene");
+                    SceneManager.LoadScene("GameScene");
                 }
                 break;
         }
