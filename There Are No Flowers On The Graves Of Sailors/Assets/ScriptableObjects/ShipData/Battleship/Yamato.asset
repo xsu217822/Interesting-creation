@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ad0e8c3a04e5e4785e03a6b4a9e850, type: 3}
+  m_Name: Yamato
+  m_EditorClassIdentifier: 
+  shipName: Yamato
+  shipType: 2
+  faction: 4
+  maxHP: 120
+  moveRange: 5
+  attackRange: 9
+  torpedoRange: 0
+  baseHitChance: 0.8
+  torpedoHitChance: 0.6
+  airstrikeHitChance: 0.5
+  hitTakenRate: 1
+  heShellDamage: 0
+  apShellPercent: 0
+  torpedoDamage: 0
+  airstrikeDamage: 0
+  armor: 0
+  apResistance: 1
+  torpedoResistance: 0
+  behaviorRules: 8
+  weaponCapabilities: 3
+  shipPrefab: {fileID: 1813258765252098, guid: aea52f5da97018c4aaecffcdfa9035d8, type: 3}
