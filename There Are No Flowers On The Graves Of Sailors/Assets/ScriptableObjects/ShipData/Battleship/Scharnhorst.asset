@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83ad0e8c3a04e5e4785e03a6b4a9e850, type: 3}
+  m_Name: Scharnhorst
+  m_EditorClassIdentifier: 
+  shipName: Scharnhorst
+  shipType: 2
+  faction: 3
+  maxHP: 381
+  moveRange: 6
+  attackRange: 5
+  torpedoRange: 0
+  baseHitChance: 0.85
+  torpedoHitChance: 0
+  airstrikeHitChance: 0
+  hitTakenRate: 1.1
+  heShellDamage: 113
+  apShellPercent: 0.2
+  torpedoDamage: 0
+  airstrikeDamage: 0
+  armor: 32
+  apResistance: 1
+  torpedoResistance: 0.5
+  behaviorRules: 4
+  weaponCapabilities: 3
+  shipPrefab: {fileID: 1813258765252098, guid: aea52f5da97018c4aaecffcdfa9035d8, type: 3}
+  directionalFireTable:
+  - direction: 0
+    ratio: 0
+  - direction: 1
+    ratio: 0
+  - direction: 2
+    ratio: 0
+  - direction: 3
+    ratio: 0
+  - direction: 4
+    ratio: 0
+  - direction: 5
+    ratio: 0
+  - direction: 6
+    ratio: 0
+  - direction: 7
+    ratio: 0
+  - direction: 8
+    ratio: 0
+  - direction: 9
+    ratio: 0
+  - direction: 10
+    ratio: 0
+  - direction: 11
+    ratio: 0
